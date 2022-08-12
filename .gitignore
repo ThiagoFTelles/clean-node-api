@@ -2,4 +2,4 @@ node_modules
 dist
 # Ignore test-related files
 /coverage.data
-/coverage/
+/coverage*
