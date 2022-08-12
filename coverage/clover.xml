@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660334131536" clover="3.2.0">
-  <project timestamp="1660334131536" name="All files">
-    <metrics statements="55" coveredstatements="51" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2" elements="69" coveredelements="63" complexity="0" loc="55" ncloc="55" packages="2" files="3" classes="3"/>
+<coverage generated="1660334723961" clover="3.2.0">
+  <project timestamp="1660334723961" name="All files">
+    <metrics statements="69" coveredstatements="69" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="5" elements="87" coveredelements="87" complexity="0" loc="69" ncloc="69" packages="2" files="2" classes="2"/>
     <package name="controllers.signup">
-      <metrics statements="52" coveredstatements="48" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2"/>
-      <file name="signup-protocols.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
-        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-      </file>
+      <metrics statements="45" coveredstatements="45" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup\signup.ts">
-        <metrics statements="48" coveredstatements="48" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <metrics statements="45" coveredstatements="45" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -52,24 +45,42 @@
         <line num="37" count="4" type="stmt"/>
         <line num="38" count="4" type="stmt"/>
         <line num="39" count="4" type="stmt"/>
-        <line num="40" count="4" type="stmt"/>
-        <line num="41" count="4" type="stmt"/>
-        <line num="42" count="4" type="stmt"/>
-        <line num="43" count="11" type="cond" truecount="1" falsecount="0"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
-        <line num="47" count="11" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="40" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="errors">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\errors\index.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    <package name="helpers">
+      <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="http-helper.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\helpers\http-helper.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
       </file>
     </package>
   </project>
