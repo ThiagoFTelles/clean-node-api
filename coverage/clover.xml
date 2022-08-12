@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660264511038" clover="3.2.0">
-  <project timestamp="1660264511038" name="All files">
-    <metrics statements="64" coveredstatements="61" conditionals="10" coveredconditionals="9" methods="6" coveredmethods="5" elements="80" coveredelements="75" complexity="0" loc="64" ncloc="64" packages="3" files="5" classes="5"/>
+<coverage generated="1660267567422" clover="3.2.0">
+  <project timestamp="1660267567422" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="70" coveredelements="70" complexity="0" loc="58" ncloc="58" packages="2" files="2" classes="2"/>
     <package name="controllers">
-      <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup.ts">
-        <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -45,49 +45,31 @@
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="40" count="7" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
-        <line num="42" count="7" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="errors">
-      <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="invalid-param-error.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\errors\invalid-param-error.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+    <package name="helpers">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="http-helper.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\helpers\http-helper.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-      <file name="missing-param-error.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\errors\missing-param-error.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="8" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-      <file name="server-error.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\errors\server-error.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="protocols">
-      <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="email-validator.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\protocols\email-validator.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
     </package>
   </project>
