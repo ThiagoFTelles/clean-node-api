@@ -1,40 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660332931020" clover="3.2.0">
-  <project timestamp="1660332931021" name="All files">
-    <metrics statements="73" coveredstatements="53" conditionals="13" coveredconditionals="10" methods="5" coveredmethods="2" elements="91" coveredelements="65" complexity="0" loc="73" ncloc="73" packages="5" files="5" classes="5"/>
-    <package name="domain.models">
-      <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="account.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\domain\models\account.ts">
-        <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+<coverage generated="1660333481808" clover="3.2.0">
+  <project timestamp="1660333481808" name="All files">
+    <metrics statements="58" coveredstatements="52" conditionals="12" coveredconditionals="10" methods="4" coveredmethods="2" elements="74" coveredelements="64" complexity="0" loc="58" ncloc="58" packages="3" files="4" classes="4"/>
+    <package name="controllers.signup">
+      <metrics statements="53" coveredstatements="49" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2"/>
+      <file name="signup-protocols.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
       </file>
-    </package>
-    <package name="domain.usecases">
-      <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="add-account.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\domain\usecases\add-account.ts">
-        <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="presentation.controllers">
-      <metrics statements="50" coveredstatements="50" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-      <file name="signup.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup.ts">
-        <metrics statements="50" coveredstatements="50" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="signup.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\controllers\signup\signup.ts">
+        <metrics statements="49" coveredstatements="49" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -43,31 +21,31 @@
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="9" type="stmt"/>
         <line num="11" count="9" type="stmt"/>
         <line num="12" count="9" type="stmt"/>
-        <line num="13" count="9" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="9" type="stmt"/>
         <line num="16" count="9" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
-        <line num="19" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="30" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="30" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
         <line num="21" count="4" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="23" count="30" type="stmt"/>
-        <line num="24" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="30" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="4" type="stmt"/>
-        <line num="30" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
         <line num="36" count="2" type="stmt"/>
@@ -78,16 +56,15 @@
         <line num="41" count="2" type="stmt"/>
         <line num="42" count="2" type="stmt"/>
         <line num="43" count="2" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="45" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="49" count="9" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="48" count="9" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="presentation.errors">
+    <package name="errors">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\errors\index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -96,13 +73,12 @@
         <line num="3" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="presentation.protocols">
-      <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+    <package name="protocols">
+      <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.ts" path="E:\2t_consultoria\inovacao\curso_nodejs_typescript_tdd_clean_architecture_solid\0code\clean-node-api\src\presentation\protocols\index.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
       </file>
     </package>
   </project>
