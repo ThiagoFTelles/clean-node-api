@@ -5,6 +5,15 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "eslint.options": {
+    "useEslintrc": false,
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true
+    }
+  },
   "rules": {
     "@typescript-eslint/strict-boolean-expressions": "off",
     "no-unused-vars": "off",

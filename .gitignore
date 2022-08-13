@@ -1,9 +1,3 @@
 node_modules
 dist
-# Ignore test-related files
-/coverage.data
 coverage
-coverage/clover.xml
-coverage/coverage-final.json
-coverage/lcov.info
-coverage/lcov-report/index.html
