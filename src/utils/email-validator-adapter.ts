@@ -7,8 +7,4 @@ export class EmailValidatorAdapter implements EmailValidator {
   }
 }
 // TODO: quando a internet voltar: npm i @types/validator -D
-// Parei na aula criando email validator adapter 17:16
-// TODO: fazer o outro commit em 14:14
-// 15:27 const makeSut = (): EmailValidatorAdapter => {
-//   return new EmailValidatorAdapter()
-// }
+// Parei na aula criando email validator adapter 
